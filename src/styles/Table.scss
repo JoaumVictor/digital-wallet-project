@@ -1,0 +1,28 @@
+.table-container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.table-container table {
+  // border-collapse: collapse;
+  display: table;
+  color: rgb(76, 75, 75);
+  margin: 15px 40px;
+  padding: 0;
+  width: 100%;
+}
+
+.table-container table thead {
+  background-color:	#69cfd3;
+}
+
+.table-container table tbody {
+  background-color:	#9bdae2;
+}
+
+th {
+  padding: 8px;
+  width: 10.5%;
+}
